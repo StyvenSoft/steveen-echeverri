@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  font-family: armata,Roboto,Helvetica Neue,Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  /*color: #838588;*/
+  text-align: left;
+  background-color: #fff;
+}
+
+.loader {
+  /*position: fixed;*/
+  /*left: 0px;*/
+  /*top: 0px;*/
+  /*width: 100%;*/
+  /*height: 100%;*/
+  /*z-index: 9999;*/
+  /*background: url('../../assets/img/826.gif') 50% 50% no-repeat rgb(249,249,249);*/
+  /*opacity: .8;*/
+}
+
+.menu-toggle:hover {
+  background: #054573;
+}
+
+.rounded {
+  border-radius: 50px !important;
+}
+
+.masthead {
+  /*min-height: 30rem;*/
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100vh;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url('../../assets/img/Sin%20título-1.png');
+  /*background: linear-gradient(90deg,hsla(0,0%,100%,.1),hsla(0,0%,100%,.1));*/
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon {
+  color: white;
+  /*background-color: gray;*/
+  margin: .5em;
+  /*padding: .5rem;*/
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  transition: all .4s ease 0s;
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+  background: #242c3e;
+  border-left: 1px solid hsla(0,0%,100%,.1);
+  text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1d809f;
+  border-color: #1d809f;
+  border-radius: 50px;
+}
+
+.bg-callout {
+  background: url("../../assets/img/Font-PageSE010.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sidebar-nav li, #sidebar-wrapper {
+  padding: 0;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.sidebar-nav li.sidebar-nav-item a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.img-seven {
+  width: 170px;
+  border-radius: 50%;
+  /*text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);*/
+  text-align: center;
+  font-size: 55px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 3px 0 rgba(0,0,0,.20);
+}
+
+.masthead h1 {
+  font-size: 3.5rem;
+  margin: 0;
+  padding: 0;
+  /*text-shadow: 0 0 2px rgba(255,255,255,.5), 0 0 7px rgba(255,255,255,.5);*/
+  text-align: center;
+  font-size: 55px;
+}
+
+.h3, h3 {
+  font-size: 1.5rem;
+}
+
+.bg-primary {
+  background-color: #136586!important;
+}
+
+@media (max-width: 414px) {
+  .h3, h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 414px) {
+  .masthead h1 {
+    font-size: 30px;
+  }
+}
+
+.container.my-auto.text-center.bg-text {
+  color: #fff;
+}
+
+@media (max-width: 414px) {
+  .content-section {
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+  }
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  border-radius: 50px;
+}
+
+.mb-5.text-fn {
+  font-size: 2.3rem;
+}
+
+.mx-auto.mb-5.bg-pru {
+  color: #fff;
+}
+
+@media (max-width: 395px) {
+  .mr-4 {
+    margin: 1.2rem!important;
+  }
+}
+
+.social-profile {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  /*padding: 14px;*/
+  margin: 5px;
+  background-color: rgb(52,58,64);
+  border-radius: 50%;
+  line-height: 50px;
+  color: #fff;
+  font-size: 22px;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.17);
+}
+
+.row.s-row {
+  padding: 0 35px;
+  margin-bottom: 15px;
+}
+
+.col.col-space {
+  /*margin-bottom: 10px;*/
+  padding: 0px;
+}
+
+a:hover {
+  color: #abb4bc;
+  text-decoration: underline;
+}
+
+.progress-bar {
+  width: 60%;
+  background: linear-gradient(to right, #008f99, #0e4f77);
+}
+
+.col.skill-space {
+  margin: 25px auto;
+  padding: 0 70px;
+}
+
+.title-skill {
+  margin-bottom: 3rem;
+}
+
+.progress {
+  height: 1rem;
+  overflow: hidden;
+  font-size: .75rem;
+  background-color: #e9ecef;
+  border-radius: 1.25rem;
+}
+
+.portfolio-item .caption .caption-content h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 3px rgb(44,44,44);
+}
+
+.form-one {
+  width: 100%;
+  height: 700px;
+}
+

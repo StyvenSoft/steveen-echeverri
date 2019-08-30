@@ -268,3 +268,25 @@ a:hover {
   margin-top: 45px;
 }
 
+.headtools {
+  background-image: url('../../assets/img/Fond002.jpg');
+}
+
+.font-one {
+  color: #838588;
+}
+
+.icon-tools {
+  width: 116px;
+  height: 116px;
+}
+
+.imagen-plat {
+  margin-top: -12px;
+  height: 70px;
+}
+
+.font-plat:hover {
+  box-shadow: 0 0 15px 10px;
+}
+

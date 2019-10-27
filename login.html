@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Simple Login</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylelogin.css">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap" rel="stylesheet">
+<style type="text/css">
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.content{
+    background: linear-gradient(
+        220deg,
+        purple,
+        rgba(0,0,0,.8)
+        );
+    height: 100vh;
+}
+
+h1{
+    padding: 25px 0;
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.login-form{
+    width: 50%;
+    background: rgba(255,255,255,.4);
+    margin: auto;
+    padding: 2em 1em;
+    border-radius: 10px;
+}
+
+.login-form__input {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: none;
+    line-height: 2.5em;
+    padding: 0 1em;
+}
+
+.login-form__submit {
+    display: block;
+    width: 100%;
+    background-color: cadetblue;
+    color: #fff;
+    border: none;
+    line-height: 2.5em;
+    text-transform: uppercase;
+    font-size: 1,1em;
+    cursor: pointer;
+}
+
+.login-form__submit:hover{
+    background-color: lightseagreen;
+}
+.login-form__forgot {
+    text-align: center;
+    display: block;
+    padding-top: 1.5em;
+    color: #fff;
+    text-decoration: none;
+}
+.login-form__forgot:hover{
+    color: purple;
+}
+.seven{
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+</style>
+    </head>
+    <body>
+    <div class="content">
+        <h1>Iniciar sesión</h1>
+        <form action="#" class="login-form">
+            <input class="login-form__input" type="text" id="username" name="username" required placeholder="Usuario">
+            <input class="login-form__input" type="password" id="password" name="password" required placeholder="Contraseña">
+            <input class="login-form__submit" type="submit" value="Ingresar">
+            <a class="login-form__forgot" href="#">Olvidaste tu constraseña?</a>
+        </form>
+        <div class="seven">Create by Steveen Echeverry</div>
+    </div>
+    </body>    
+</html>

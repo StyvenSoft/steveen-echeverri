@@ -9,7 +9,7 @@ body {
   background-color: #fff;
 }
 
-.loader {
+/* .loader { */
   /*position: fixed;*/
   /*left: 0px;*/
   /*top: 0px;*/
@@ -18,7 +18,7 @@ body {
   /*z-index: 9999;*/
   /*background: url('../../assets/img/826.gif') 50% 50% no-repeat rgb(249,249,249);*/
   /*opacity: .8;*/
-}
+/* } */
 
 .menu-toggle:hover {
   background: #054573;
@@ -290,3 +290,7 @@ a:hover {
   box-shadow: 0 0 15px 10px;
 }
 
+.contact-form_one {
+  height: 390px;
+  overflow: hidden;
+}

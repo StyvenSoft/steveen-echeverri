@@ -172,6 +172,10 @@ body {
   .mr-4 {
     margin: 1.2rem!important;
   }
+  embed {
+    width: 143%;
+    overflow: hidden;
+  }
 }
 
 .social-profile {

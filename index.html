@@ -174,15 +174,16 @@
                     <div class="col item social"><a href="https://www.facebook.com/steveen.echeverri" target="_blank"><i class="fa fa-facebook-square"></i></a><a href="https://twitter.com/styvensoft" target="_blank"><i class="fa fa-twitter"></i></a><a href="https://wa.me/573212562571"
                             target="_blank"><i class="fa fa-whatsapp"></i></a><a href="https://www.instagram.com/styvensoft/" target="_blank"><i class="fa fa-instagram"></i></a></div>
                 </div>
-                <p class="copyright">Desarrollo by <a href="https://styvensoft.github.io/" target="_blank">styvensoft</a> © 
-                    <script>
-                        var f = new Date();
-                        document.write(f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear());
-                        </script>
+                <p class="copyright">Desarrollo by <a href="https://styvensoft.github.io/" target="_blank">styvensoft</a> © <span id="year"></span>
                 </p>
             </div>
         </footer>
     </div>
+    <script>
+        let f = new Date();
+        current = f.getDate() + "/" + (f.getMonth() +1) + "/" + f.getFullYear();
+        document.getElementById('year').innerHTML = current;
+    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/stylish-portfolio.js"></script>
